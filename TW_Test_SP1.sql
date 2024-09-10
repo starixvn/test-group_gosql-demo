@@ -9,11 +9,13 @@ AS
 
 	Revisions:
 		- 20240827@Evan: Initialize SP [RemineID: #000001]
+		- 20240910@TW_Mei: Alter for gosql demo test
 */
 
 BEGIN
 	
 	SELECT 'Executing TW_Test_SP1...';
+	SELECT 'Testing Part 2'
 	EXEC TW_Test_SP3
 
 END
