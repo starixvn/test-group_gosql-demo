@@ -15,6 +15,7 @@ BEGIN
 	
 	SELECT 'Executing TW_Test_SP2...';
 	EXEC TW_Test_SP3
+	SELECT 'Testing'
 
 END
 GO
