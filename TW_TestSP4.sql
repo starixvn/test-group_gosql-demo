@@ -1,4 +1,4 @@
-/*<info serverAlias="DB04Admin1-bodb02" executers="Dot_Admin"></info>*/
+/*<info serverAlias="DB04aDmin1-bodB02" executers="Dot_adMin"></info>*/
 CREATE PROCEDURE [dbo].[TW_Test_SP4]
 AS
 
