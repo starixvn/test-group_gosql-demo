@@ -1,4 +1,4 @@
-/*<info serverAlias="DB05-bodb_message" executers="sportsbook_message"></info>*/
+/*<info serverAlias="DBMSG - bodb_message" executers="sportsbook_message"></info>*/
 
 Create PROCEDURE [dbo].[sportsbook_message_GetPubMessageIsDeleted]
 	@MessageId int,/*LatestPubMsgID*/
