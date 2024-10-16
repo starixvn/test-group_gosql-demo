@@ -6,7 +6,7 @@ CREATE PROCEDURE [dbo].[sportsbook_message_SetPriMsgRead]
 AS
 /*
 Revisions:
-	
+	20241016 : Update revision history for GoSQL deploy
 */
 BEGIN
 	Update dbo.MsgTarget
