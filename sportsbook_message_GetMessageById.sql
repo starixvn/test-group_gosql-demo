@@ -5,7 +5,7 @@ CREATE PROCEDURE [dbo].[sportsbook_message_GetMessageById]
 AS
 /*
 Revisions:
-DavidHe@20240220(MessageDB): Create SP
+20240220@DavidHe(MessageDB): Create SP
 */
 BEGIN
     SET NOCOUNT ON;
