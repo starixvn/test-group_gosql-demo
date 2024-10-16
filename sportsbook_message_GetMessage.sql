@@ -21,6 +21,7 @@ BEGIN
         Scott@20110322 : if len(siteid) is 4 transfer to 7
 		Scott@20120109 : add condition for new flag column [isDeleted] to filter deleted data.
 		Scott@20180828 : Added Content_zhcn
+		
     Param's Explanation:
     */
     SET NOCOUNT ON;
