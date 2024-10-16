@@ -9,6 +9,7 @@ Create PROCEDURE [dbo].[sportsbook_message_GetPubMessageIsDeleted]
 	@site5 varchar(10) = ''
 AS
 /*
+Revisions:
 	20120416@Scott(DB07.bodb_message): Check message deleted or not.
 */
 BEGIN

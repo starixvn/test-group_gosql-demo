@@ -6,6 +6,7 @@ CREATE PROCEDURE [dbo].[sportsbook_message_HasPriMessage24]
 AS
 BEGIN
 /*
+Revisions
 	20120109@Scott(DB07): add condition for new flag column [isDeleted] to filter deleted data.
 	20181222@Cooper(DB05): hint index [PK_Msg] on Msg Table
 */

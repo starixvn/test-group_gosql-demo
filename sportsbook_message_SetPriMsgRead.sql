@@ -4,6 +4,10 @@ CREATE PROCEDURE [dbo].[sportsbook_message_SetPriMsgRead]
 	@UserId int,
 	@UserName nvarchar(30)
 AS
+/*
+Revisions:
+	
+*/
 BEGIN
 	Update dbo.MsgTarget
 	SET IsRead = 1

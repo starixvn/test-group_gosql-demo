@@ -5,8 +5,11 @@ CREATE PROCEDURE [dbo].[sportsbook_message_GetPrivateMessageForPushWorker]
 	@edate datetime,
 	@isTest bit = 0
 AS
+/*
 -- 執行頻率: 5秒執行一次
+Revisions:
 -- 20240102@Allen (bodb_Message): query private message by datetime range
+*/
 BEGIN
 	SET NOCOUNT ON;
 

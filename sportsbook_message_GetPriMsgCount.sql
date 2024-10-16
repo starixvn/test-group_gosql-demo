@@ -6,7 +6,8 @@ CREATE PROCEDURE [dbo].[sportsbook_message_GetPriMsgCount]
 AS
 BEGIN
 /*
-	Scott@20120109 : add condition for new flag column [isDeleted] to filter deleted data.
+Revisions:
+	20120109@Scott : add condition for new flag column [isDeleted] to filter deleted data.
 */
 	Select Count(*) As Count From dbo.MsgTarget with (nolock)
 	Where IsRead =0 
