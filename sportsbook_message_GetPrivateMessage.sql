@@ -1,4 +1,4 @@
-/*<info serverAlias="DBMSG - bodb_message" executers="sportsbook_message"></info>*/
+/*<info serverAlias="DBMSG-bodb_message" executers="sportsbook_message"></info>*/
 
 CREATE procedure [dbo].[sportsbook_message_GetPrivateMessage]
 	@targetid int = 0,
