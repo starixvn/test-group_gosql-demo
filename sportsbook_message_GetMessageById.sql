@@ -3,11 +3,10 @@
 CREATE PROCEDURE [dbo].[sportsbook_message_GetMessageById]
     @messageId int = 0
 AS
-/*
- Revisions:
+
+ --Revisions:
 -- 20240220@DavidHe(MessageDB): Create SP
 
-*/
 BEGIN
     SET NOCOUNT ON;
 
