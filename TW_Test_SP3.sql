@@ -1,4 +1,4 @@
-/*<info serverAlias="DBAGE-bodb02,DBLOG-bodb02" executers="wsv_nap"></info>*/
+/*<info serverAlias="DBOWP-bodb_OWP" executers="wsv_owp"></info>*/
 ALTER PROCEDURE [dbo].[TW_Test_SP3]
 AS
 
